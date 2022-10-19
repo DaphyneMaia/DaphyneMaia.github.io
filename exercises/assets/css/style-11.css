@@ -15,6 +15,7 @@ input, button, textarea, select { font: inherit }
 
 /* ======================= SECTIONS ======================== */
 
+body {background-color: aquamarine;}
 /* Regular and larger screens */
 @media (min-width: 1200px) { 
     section { 
@@ -126,3 +127,21 @@ p {
       width: 100%; 
     }
   }
+
+  /* Passive link styles */
+            
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: purple;
+    border-bottom: solid 2px orange;
+} 
+            
+/* Interactive link styles */
+            
+a:hover, a:focus, a:active {
+    text-decoration: none; 
+    padding-bottom: 2px;
+    color: red;
+    border-bottom: solid 2px red;
+}

@@ -62,3 +62,20 @@ a {
     color: #e74645;
 
 }
+/* Passive link styles */
+            
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: blue;
+    border-bottom: solid 2px orange;
+} 
+            
+/* Interactive link styles */
+            
+a:hover, a:focus, a:active {
+    text-decoration: none; 
+    padding-bottom: 2px;
+    color: red;
+    border-bottom: solid 2px red;
+}

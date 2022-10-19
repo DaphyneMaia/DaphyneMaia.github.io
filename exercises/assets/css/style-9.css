@@ -23,6 +23,8 @@ input, button, textarea, select { font: inherit }
 
 /* ==== Headings ==== */
 
+body {background-color: lightblue;}
+
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 64px;
@@ -83,3 +85,21 @@ p {
 .edge p,
 .larry h3,
 .larry p { color: #000 }
+
+/* Passive link styles */
+            
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: purple;
+    border-bottom: solid 2px orange;
+} 
+            
+/* Interactive link styles */
+            
+a:hover, a:focus, a:active {
+    text-decoration: none; 
+    padding-bottom: 2px;
+    color: red;
+    border-bottom: solid 2px red;
+}

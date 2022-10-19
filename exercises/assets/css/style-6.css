@@ -54,3 +54,20 @@ img {
     margin-bottom: 32px;
     border-radius: 15px;
 }
+/* Passive link styles */
+            
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: #ff595e;
+    border-bottom: solid 2px #ffc300;
+} 
+            
+/* Interactive link styles */
+            
+a:hover, a:focus, a:active {
+    text-decoration: none; 
+    padding-bottom: 2px;
+    color: #3a86ff;
+    border-bottom: solid 2px #3a86ff;
+}
