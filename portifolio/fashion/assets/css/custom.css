@@ -176,6 +176,12 @@ a:hover, a:focus, a:active {
 .section-selector-6 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--white-000) }
 .section-selector-6 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--white-000) }
 
+a:link, a:visited {
+  text-decoration: none;
+  padding-bottom: 2px;
+  color: purple;
+  border-bottom: solid 2px orange;}
+
 
 
 
