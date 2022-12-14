@@ -180,3 +180,19 @@ nav.theme-light ul.links-wrapper li a:link, nav.theme-light ul.links-wrapper li 
 .theme-light .col-1 h3 {
     color: var(--blue-800);
 }
+
+.theme-light h1, .theme-light .col-1 h1.in-col-1, .theme-light p, .theme-light li {
+    color: var(--blue-800);
+}
+
+.theme-light h2, .theme-light p, .theme-light li {
+    color: var(--orange-500);
+}
+
+.theme-light h3, .theme-light, .theme-light li {
+    color: var(--blue-800);
+}
+
+.theme-light .col-1 h3 {
+    color: var(--blue-800);
+}
