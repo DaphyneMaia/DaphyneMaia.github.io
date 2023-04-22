@@ -3477,7 +3477,7 @@ button>*:nth-child(2) {
 #contact-form input,
 #contact-form textarea {
     padding: 10px 12px;
-    border: 2px solid var(--black-000);
+    border: 2px solid var(--blue-800);
     border-radius: 5px;
 }
 
@@ -3492,12 +3492,12 @@ button>*:nth-child(2) {
 
 #contact-form #btn-submit {
     float: right;
-    background-color: var(--black-000);
+    background-color: var(--blue-800);
     color: var(--white-000);
     font-weight: bold;
     padding: 12px 28px;
     font-size: 18px;
-    border: solid 2px var(--black-000);
+    border: solid 2px var(--blue-800);
     cursor: pointer;
     outline: none
 }
